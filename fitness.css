@@ -1,0 +1,98 @@
+.navbar {
+	overflow: hidden;
+	background-color: #7d9a74;
+	position: relative; /* Set the navbar to center position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+body
+{
+	width: 40%;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #adbfa7;
+	font-family: "Times New Roman", "American Typewriter", Courier, Verdana
+}
+p
+{
+	font-size: 15pt;
+	text-align: justify;
+}
+ul
+{
+	font-size: 16pt;
+	text-align: justify;
+}
+p,ul, h3
+{
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: white;
+	background-color: rgba(142, 176, 131, 0.95);
+	color: white;
+}
+h1
+{
+	font-size: 26pt;
+	color: white;
+	margin-top: 30px; /* So the fixed menu does not cover the h1 */
+	margin-left: auto;
+	margin-right: auto; /* To center my paragraphs */
+}
+img
+{	
+	border-color: white;
+	border-width: 5px;
+	border-style: solid;
+	margin: 2%;
+	margin-right: 0%;
+	width: 500px;
+	height: 300px;
+}
+h2
+{
+	font-size: 20pt;
+	text-align: center;
+	color: white;
+}
+.images
+{
+	width: 300px;
+	height: 180px;
+}
+.images2
+{
+	width: 700px;
+	height:300px;
+}
+#resources
+{
+	width: 100%;
+}
+#check/*to make my validators a smaller size*/
+{
+	margin-top: 300px;
+	width: 100px;
+	height: 70px;
+}
+#valid/*to make my validators a smaller size*/
+{
+	margin-top: 300px;
+	width: 100px;
+	height: 70px;
+}
