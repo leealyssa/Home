@@ -1,0 +1,87 @@
+.navbar {
+	overflow: hidden;
+	background-color: black;
+	position: relative; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	margin: 0px auto
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+/* Main content */
+.main {
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body
+{
+	width: 40%;
+	margin: 0px auto;
+	text-align: center;
+	background-image: url("Images/gym.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: "Times New Roman", "American Typewriter", Courier, Verdana
+}
+p,ol
+{
+	font-size: 15pt;
+	background-color: rgba(244, 246, 243, 0.74);
+	border-style: solid;
+	display : table;
+	margin-left: auto;
+	margin-right: auto; /* To center my paragraphs */
+}
+h1
+{
+	background-color: rgba(244, 246, 243, 0.74);
+	border-style: solid;
+	display : table;
+	margin-top: 70px;
+	font-size: 26pt;
+	color: black;
+	margin-left: auto;
+	margin-right: auto; /* To center my paragraphs and ordered list*/
+}
+img
+{
+	border-color: #F9E4F0;
+	border-width: 5px;
+	border-style: solid;
+	margin: 2%;
+}
+h2
+{
+	font-size: 20pt;
+	text-align: justify;
+}
+ol
+{
+	text-align: justify;
+}
+#validator /*to make my validators a smaller size*/
+{
+	margin-top: 300px;
+	width: 100px;
+	height: 70px;
+}
+#validator2
+{
+	margin-top:300px;
+	width: 100px;
+	height: 70px;
+}
